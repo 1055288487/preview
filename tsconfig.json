@@ -1,0 +1,34 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "./src",
+    "allowSyntheticDefaultImports": false,
+    "strictPropertyInitialization": false, // 初始化默认值
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2017"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "strict": true,
+    "module": "commonjs",
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
