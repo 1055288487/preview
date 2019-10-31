@@ -30,7 +30,7 @@
     "gridfs-stream": "^1.1.1",
     "mkdirp": "^0.5.1",
     "mongodb": "^3.1.1",
-    "mongoose": "^5.2.2",
+    "mongoose": "^5.7.5",
     "request": "^2.87.0",
     "koa": "^2.2.0",
     "koa-basic-auth": "^2.0.0",
